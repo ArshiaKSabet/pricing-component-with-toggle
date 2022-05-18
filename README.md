@@ -3,7 +3,7 @@
 ![Design preview for the Pricing component with toggle coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+**To do this challenge, you need a basic understanding of HTML, CSS and React.**
 
 ## The challenge
 
@@ -15,8 +15,6 @@ Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - Control the toggle with both their mouse/trackpad and their keyboard
-- **Bonus**: Complete the challenge with just HTML and CSS
-
 
 ## Where to find everything
 
