@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import React from "react";
 import { Box } from "@mui/system";
 
-const Button = ({ backgroundColor = {}, color = {} }) => {
+const Button = ({ backgroundColor = {}, color = {}, backgroundImage }) => {
   return (
     <Box
       sx={{
@@ -14,12 +14,14 @@ const Button = ({ backgroundColor = {}, color = {} }) => {
     >
       <Box
         sx={{
+          backgroundImage: backgroundImage,
           backgroundColor: { backgroundColor },
           borderRadius: "4px",
-          minWidth: "64px",
+          width: "80%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          cursor: "pointer",
         }}
       >
         <Typography

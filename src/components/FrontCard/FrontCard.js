@@ -25,52 +25,64 @@ const FrontCard = ({ price, type, users, storage, send }) => {
         }}
       >
         <Typography
-          sx={{ fontSize: 14, fontFamily: "'Montserrat', sans-serif" }}
-          color="white"
+          sx={{
+            fontSize: 14,
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
           gutterBottom
         >
           {type}
         </Typography>
         <Typography
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
+          sx={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
           variant="h3"
-          color="white"
           component="div"
         >
           {price}
         </Typography>
         <Divider sx={{ mt: 2, mb: 2 }} />
         <Typography
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
-          color="white"
+          sx={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
         >
           {storage}
         </Typography>
         <Divider sx={{ mt: 2, mb: 2 }} />
         <Typography
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
-          color="white"
+          sx={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
         >
           {users}
         </Typography>
         <Divider sx={{ mt: 2, mb: 2 }} />
         <Typography
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
-          color="white"
+          sx={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
         >
           {send}
         </Typography>
         <Divider sx={{ mt: 2, mb: 2 }} />
         <Typography
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
-          color="white"
+          sx={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "background.default",
+          }}
         >
           <Button
             backgroundColor={"white"}
             color={"#696fdd"}
             sx={{
               mt: 2,
-              background: "white",
               border: "none",
               fontFamily: "'Montserrat', sans-serif",
             }}

@@ -8,8 +8,6 @@ export const ThemeOptions = createTheme({
 
     background: {
       default: "#ffffff",
-      paper:
-        "#linear-gradient(357deg, rgba(105,111,221,1) 0%, rgba(163,168,240,1) 100%)",
     },
     text: {
       primary: "#ffffff",
